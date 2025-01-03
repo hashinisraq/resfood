@@ -1,0 +1,26 @@
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+     box-shadow: 1px 1px 10px 1px #888888;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+#foodDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+}
